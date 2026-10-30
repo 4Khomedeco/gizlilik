@@ -6,5 +6,6 @@ Her uygulama kendi klasöründe: `https://4khomedeco.github.io/gizlilik/<uygulam
 | Uygulama | Adres | Kaynak |
 |---|---|---|
 | TAAN PDF | https://4khomedeco.github.io/gizlilik/taan-pdf/ | 4Khomedeco/PDF-EDIT → `pdf-editor-android/play/gizlilik-politikasi.html` |
+| Trego | https://4khomedeco.github.io/gizlilik/trego/ | 4Khomedeco/TREGO (uygulama kodu; politika yalnızca bu depoda) |
 
 Yeni uygulama: `<uygulama>/index.html` ekle, ana sayfadaki listeye ve bu tabloya bir satır yaz.
