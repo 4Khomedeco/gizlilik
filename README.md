@@ -13,4 +13,6 @@ Her uygulama kendi klasöründe: `https://4khomedeco.github.io/gizlilik/<uygulam
 | Block Nest | https://4khomedeco.github.io/gizlilik/block-nest/ | 4Khomedeco/Oyunlar (özel) → `Block Nest/magaza/MAGAZA-METINLERI.md`; kod: 4Khomedeco/Pazaryerim → `public/oyun/` |
 | Yarn Bloom | https://4khomedeco.github.io/gizlilik/yarn-bloom/ | 4Khomedeco/Oyunlar (özel) → `Yarn Bloom/magaza/MAGAZA-METINLERI.md`; kod: 4Khomedeco/Pazaryerim → `public/oyun/` |
 
+Destek sayfası (App Store zorunlu ister; Alya Steps, Block Nest, Yarn Bloom): https://4khomedeco.github.io/gizlilik/destek/
+
 Yeni uygulama: `<uygulama>/index.html` ekle, ana sayfadaki listeye ve bu tabloya bir satır yaz.
