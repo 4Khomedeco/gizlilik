@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>CADNEX — Gizlilik Politikası</h1>
-<p><small>Son güncelleme: 30 Ekim 2026 · Geliştirici: Taan System · Uygulama paketi: com.cadnex.app</small></p>
+<p><small>Son güncelleme: 31 Ekim 2026 · Geliştirici: Taan System · Uygulama paketi: com.cadnex.app (Android ve iOS)</small></p>
 
 <h2>Özet</h2>
 <p>CADNEX, DWG, DXF ve PDF çizimlerini ve STL, STEP gibi 3D modelleri cihazınızda açıp düzenleyen bir uygulamadır.
@@ -38,14 +38,17 @@ Uygulamayı kaldırdığınızda bu veriler cihazınızdan silinir.</p>
 istatistiği veya çökme raporu toplamaz. Hesap ya da oturum açma yoktur.</p>
 
 <h2>İzinler</h2>
-<p>Uygulamanın internet, konum, kamera, mikrofon, kişiler veya bildirim izni yoktur. İstenebilen tek izin şudur:</p>
+<p>Uygulamanın internet, konum, kamera, mikrofon, kişiler veya bildirim izni yoktur. İstenebilen izinler şunlardır:</p>
 <ul>
-  <li><b>Depolama alanına yazma</b> (yalnızca Android 9 ve öncesi): “Resim” komutuyla aldığınız ekran görüntüsünü
-  cihazınızın Resimler klasörüne (Resimler/CADNEX) kaydetmek için, yalnızca bu komutu kullandığınızda istenir.
-  Android 10 ve sonrasında bu izin istenmez.</li>
+  <li><b>Android — depolama alanına yazma</b> (yalnızca Android 9 ve öncesi): “Resim” komutuyla aldığınız ekran
+  görüntüsünü cihazınızın Resimler klasörüne (Resimler/CADNEX) kaydetmek için, yalnızca bu komutu kullandığınızda
+  istenir. Android 10 ve sonrasında bu izin istenmez.</li>
+  <li><b>iOS — Fotoğraflar'a ekleme</b>: “Resim” veya “Gönder” ile açılan paylaşma ekranında “Görüntüyü Kaydet”i
+  seçerseniz, ekran görüntüsünü Fotoğraflar'a eklemek için iOS bu izni sorar. Uygulama fotoğraflarınızı okumaz.</li>
 </ul>
-<p>Dosya açma ve kaydetme için Android'in sistem dosya seçicisi kullanılır; bu nedenle depolama alanınızın tamamına
-erişim izni istenmez.</p>
+<p>Dosya açma ve kaydetme için Android'in sistem dosya seçicisi, iOS'ta Dosyalar uygulaması kullanılır; bu nedenle
+depolama alanınızın tamamına erişim izni istenmez. iOS sürümü Apple'ın gizlilik bildirimine (privacy manifest) göre
+veri toplamaz ve izleme yapmaz.</p>
 
 <h2>Üçüncü taraf hizmetler</h2>
 <p>Uygulama reklam, analiz, çökme raporu veya ödeme hizmeti (AdMob, Firebase, Crashlytics, Google Play
@@ -64,7 +67,7 @@ hiçbir hizmete bağlanmaz.</p>
 
 <div class="en">
 <h1>CADNEX — Privacy Policy</h1>
-<p><small>Last updated: 30 October 2026 · Developer: Taan System · Package: com.cadnex.app</small></p>
+<p><small>Last updated: 31 October 2026 · Developer: Taan System · Package: com.cadnex.app (Android and iOS)</small></p>
 <p><b>Summary.</b> CADNEX opens and edits DWG, DXF and PDF drawings and 3D models such as STL and STEP on your
 device. It does not collect, store or share any personal data. The app has no internet permission: it cannot connect
 to the internet and your files never leave your device. The app has no server of its own.</p>
@@ -79,10 +82,12 @@ from Android's automatic backup to your Google account. Uninstalling the app del
 <p><b>Data collected.</b> The app does not collect names, e-mail addresses, phone numbers, location, contacts,
 photos, device identifiers, advertising IDs, usage statistics or crash reports. There is no account or sign-in.</p>
 <p><b>Permissions.</b> The app has no internet, location, camera, microphone, contacts or notification permission.
-The only permission it may request is <b>write access to storage</b> (Android 9 and older only), used to save a
-screenshot taken with the “Image” command to your Pictures folder (Pictures/CADNEX); it is requested only when you
-use that command. It is not requested on Android 10 and later. Files are opened and saved through Android's system
-file picker, so the app does not request access to your whole storage.</p>
+It may request: on <b>Android</b>, <b>write access to storage</b> (Android 9 and older only), used to save a screenshot
+taken with the “Image” command to your Pictures folder (Pictures/CADNEX), requested only when you use that command and
+not on Android 10 and later; on <b>iOS</b>, <b>adding to Photos</b>, asked by iOS only if you choose “Save Image” in the
+share sheet opened by “Image” or “Send” — the app never reads your photos. Files are opened and saved through Android's
+system file picker or the iOS Files app, so the app does not request access to your whole storage. The iOS version
+collects no data and does no tracking, as declared in its Apple privacy manifest.</p>
 <p><b>Third-party services.</b> The app uses no advertising, analytics, crash reporting or payment services (AdMob,
 Firebase, Crashlytics, Google Play Billing, etc.). There are no in-app purchases or subscriptions. The open-source
 libraries used to read file formats (LibreDWG, OpenCascade, pdf.js, etc.) are built into the app, run on the device
